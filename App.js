@@ -8,7 +8,16 @@ class App extends Component {
   render() {
     return (
       <View>
-        <Text>Hello World</Text>
+        <Text
+          style={{
+            fontWeight: 'bold',
+            fontStyle: 'normal',
+            textAlign: 'right',
+            letterSpacing: 5,
+          }}>
+          <Text style={{color: 'red', fontSize: 28}}>Hello </Text>
+          <Text>World</Text>
+        </Text>
       </View>
     );
   }
